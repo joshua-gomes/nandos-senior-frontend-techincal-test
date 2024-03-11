@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Nandos Senior Frontend Engineer Techincal Test - Joshua Gomes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Setup
+
+Run the command below in the terminal to install the project's dependencies
+
+### `npm install`
+
+**Note**: There is an issue with create-react-app where project dependencies come up as vulnerabilities. This is a bug and can be found on this [forum](https://github.com/facebook/create-react-app/issues/11174). You can check if there are any vulnerabilities by running the command below.
+
+### `npm audit --production`
 
 ## Available Scripts
 
