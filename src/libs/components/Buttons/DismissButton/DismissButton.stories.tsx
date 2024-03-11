@@ -1,4 +1,3 @@
-import React from "react";
 import { Meta, StoryFn } from "@storybook/react";
 import DismissButton from "./DismissButton";
 import type { DismissButtonProps } from "./DismissButton";
