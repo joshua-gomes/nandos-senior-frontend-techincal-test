@@ -20,15 +20,14 @@ const config: StorybookConfig = {
     autodocs: "tag",
   },
   staticDirs: ["..\\public"],
-  typescript: {
-  
-  },
+  typescript: {},
   async webpackFinal(config, { configType }) {
     if (config?.resolve?.alias) {
       config.resolve.alias = {
         ...config.resolve.alias,
-        "@libs/styles": path.resolve(__dirname, "../src/libs/styles"),
         "@libs/components": path.resolve(__dirname, "../src/libs/components"),
+        "@libs/helpers": path.resolve(__dirname, "../src/libs/helpers"),
+        "@libs/styles": path.resolve(__dirname, "../src/libs/styles"),
       };
     }
     return config;

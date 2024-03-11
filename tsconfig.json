@@ -16,8 +16,9 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "@libs/styles/*": ["./src/libs/styles/*"],
-      "@libs/components/*": ["./src/libs/components/*"]
+      "@libs/components/*": ["./src/libs/components/*"],
+      "@libs/helpers/*": ["./src/libs/helpers/*"],
+      "@libs/styles/*": ["./src/libs/styles/*"]
     }
   },
   "include": ["src", "./.storybook/*"]

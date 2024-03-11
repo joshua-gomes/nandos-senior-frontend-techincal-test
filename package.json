@@ -138,8 +138,9 @@
     "moduleNameMapper": {
       "^react-native$": "react-native-web",
       "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy",
-      "^@libs/styles/(.*)$": "<rootDir>/src/libs/styles/$1",
-      "^@libs/components/(.*)$": "<rootDir>/src/libs/components/$1"
+      "^@libs/components/(.*)$": "<rootDir>/src/libs/components/$1",
+      "^@libs/helpers/(.*)$": "<rootDir>/src/libs/helpers/$1",
+      "^@libs/styles/(.*)$": "<rootDir>/src/libs/styles/$1"
     },
     "moduleFileExtensions": [
       "web.js",
