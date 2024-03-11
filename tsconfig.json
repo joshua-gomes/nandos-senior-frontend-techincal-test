@@ -20,5 +20,5 @@
       "@libs/components/*": ["./src/libs/components/*"]
     }
   },
-  "include": ["src"]
+  "include": ["src", "./.storybook/*"]
 }
