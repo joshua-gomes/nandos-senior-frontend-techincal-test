@@ -54,6 +54,12 @@ I decided to use react-testing-library to test the components I created because 
 
 One thing I did not get a chance to do was to setup snapshot testing. I think snapshot testing is important because it helps point out any visual regressions your components might have. If I had more time I would definitely setup snapshot testing to verify the components haven't changes visually.
 
+## Linting
+I didn't have the chance to configure eslint correctly for the project and to add a lint script to the project, but if I had more time I would definitely add this.
+
+I believe linting is a very important component to keeping a project well maintained with little to no errors/warnings.
+
+
 ## Distributing the component library
 
 I didn't make any specific efforts to help package up the library to be used by any consuming applications, but if I had to make this production ready I would look at setting up a npm package and maybe looking at using a tool like [Bit](https://bit.dev/).
