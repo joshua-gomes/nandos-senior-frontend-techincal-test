@@ -34,6 +34,11 @@ I did use the autodocs feature to document the components I created stories for 
 
 Tests don't only provide value by letting you know that the behaviour or an appearance of a component has changed, but also helps create documentation for your component. I believe tests are a geat way to document the usage of a component and how different properties passed to a component can affect how it behaves.
 
+## Styled Components
+I used styled components in this project, because it is the CSS in JS solution that I am most comfortable with. There are some drawbacks for using it which i learned from Steve during the interview. e.g. Runtime performance.
+
+If I had more time I would look into other CSS in JS solutions like vanilla-extract which builds the css during build time. Using a library like vanilla-extract would improve runtime performance of the components in this library and therefore making consumers of the library more performant.
+
 ## Accessibility
 
 During the task I always tried to keep accessibility as a priority. In my components I used aria labels and roles to help describe the purpose of a component. e.g. using aria-label for the DismissButton component to let the user know it was a button with the responsibility of dismissing something.
