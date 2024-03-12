@@ -21,9 +21,9 @@ const config: StorybookConfig = {
   docs: {
     autodocs: true,
   },
-  staticDirs: ["..\\public"],
+  staticDirs: ["../public"],
   typescript: {},
-  async webpackFinal(config, { configType }) {
+  async webpackFinal(config) {
     if (config?.resolve?.alias) {
       config.resolve.alias = {
         ...config.resolve.alias,
@@ -35,4 +35,5 @@ const config: StorybookConfig = {
     return config;
   },
 };
+
 export default config;
